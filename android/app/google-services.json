@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "896104532490",
+    "project_id": "firestore-c72d0",
+    "storage_bucket": "firestore-c72d0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:896104532490:android:993236f4567d9d8112edf3",
+        "android_client_info": {
+          "package_name": "com.example.tp_4"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2Ldisd2e8y0wuvGEpF2M7mzuPChUk2_8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:896104532490:android:5ace5bc73d495e0112edf3",
+        "android_client_info": {
+          "package_name": "com.medskhiri.firebase_demo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2Ldisd2e8y0wuvGEpF2M7mzuPChUk2_8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
