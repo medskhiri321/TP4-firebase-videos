@@ -1,4 +1,4 @@
-# TP4 - firebase videos préférées
+# TP4 - Firebase Videos Préférées
 
 A new Flutter project.
 
