@@ -42,6 +42,7 @@ class MyApp extends StatelessWidget {
   }
 }
 
+
 class MoviesInformation extends StatefulWidget {
   const MoviesInformation({
     super.key,
@@ -64,6 +65,8 @@ class MoviesInformation extends StatefulWidget {
 }
 
 class _MoviesInformationState extends State < MoviesInformation > {
+   //Appel à la collection Movies de Firestore aec async *
+   //Stream<QuerySnapshot> get _moviesStream async* { yield* FirebaseFirestore.instance.collection('Movies').snapshots(); }
     final Stream<QuerySnapshot> _moviesStream =
     FirebaseFirestore.instance.collection('Movies').snapshots();
 
@@ -90,9 +93,9 @@ class _MoviesInformationState extends State < MoviesInformation > {
                       Map<String, dynamic> movie =
                         document.data()! as Map<String, dynamic>;
                       return ListTile(
+                        contentPadding: const EdgeInsets.all(20),
                         title: Text(movie['name']),
-
-                        trailing: SizedBox(child: Image.network( movie['lien'], width: 200, height: 200, fit: BoxFit.contain,)),
+                        trailing: Image.network( movie['lien']),
                       );
                     }).toList(),
                   );
