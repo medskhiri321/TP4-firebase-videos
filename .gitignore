@@ -41,7 +41,7 @@ app.*.map.json
 
 #Security 
 
-lib/firebase_options.dart
+/lib/firebase_options.dart
 
 # Android Studio will place build artifacts here
 /android/app/debug
